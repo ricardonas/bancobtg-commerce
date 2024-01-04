@@ -26,4 +26,4 @@ Username: admin </br>
 Password: admin </br>
 
 #### Publicando uma mensagem na fila "order.save" para consumo da aplicação
-![img.png](img.png)
+![Alt text](https://i.imgur.com/0OsYx2b.png "a title")
