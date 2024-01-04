@@ -1,6 +1,9 @@
 # Commerce
 _API REST para gerenciamento de pedidos de compra._
 
+### Swagger
+A documentação da aplicação se encontra disponível no swagger por meio do endereço: http://localhost:8080/swagger-ui/index.html
+
 ## Como iniciar a aplicação
 
 ### Docker
@@ -26,10 +29,11 @@ Username: admin </br>
 Password: admin </br>
 
 #### Publicando uma mensagem na fila "order.save" para consumo da aplicação
-![Alt text](https://i.imgur.com/0OsYx2b.png "Publicando mensagem na fila.")
-![Alt text](https://i.imgur.com/inbOajb.png "Publicando mensagem na fila.")
-![Alt text](https://i.imgur.com/ATgScuv.png "Publicando mensagem na fila.")
+![Alt text](https://i.imgur.com/0OsYx2b.png "Acessando filas.")
+![Alt text](https://i.imgur.com/inbOajb.png "Acessando fila 'order.save'.")
+![Alt text](https://i.imgur.com/ATgScuv.png "Enviando payload na fila.")
 
+<b>Exemplo de payload para ser publicado na fila</b>
 ```json
 {
   "id": 1,
