@@ -26,4 +26,27 @@ Username: admin </br>
 Password: admin </br>
 
 #### Publicando uma mensagem na fila "order.save" para consumo da aplicação
-![Alt text](https://i.imgur.com/0OsYx2b.png "a title")
+![Alt text](https://i.imgur.com/0OsYx2b.png "Publicando mensagem na fila.")
+![Alt text](https://i.imgur.com/inbOajb.png "Publicando mensagem na fila.")
+![Alt text](https://i.imgur.com/ATgScuv.png "Publicando mensagem na fila.")
+
+```json
+{
+  "id": 1,
+  "partyId": 123,
+  "state": 1,
+  "items": [
+    {
+      "name": "Camiseta",
+      "amount": 2,
+      "price": 20.5
+    },
+    {
+      "name": "Tênis",
+      "amount": 1,
+      "price": 15.8
+    }
+  ]
+}
+
+```
